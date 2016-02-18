@@ -1,57 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-	<ProductVersion>10.0.20506</ProductVersion>
-	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}</ProjectGuid>
-	<OutputType>Library</OutputType>
-	<AppDesignerFolder>Properties</AppDesignerFolder>
-	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
-	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-	<FileAlignment>512</FileAlignment>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{991ACB7A-CC85-4B1E-CE9A-C9C5FDEC3F6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-	<DebugSymbols>true</DebugSymbols>
-	<DebugType>full</DebugType>
-	<Optimize>false</Optimize>
-	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-	<DebugType>pdbonly</DebugType>
-	<Optimize>true</Optimize>
-	<OutputPath>Temp\bin\Release\</OutputPath>
-	<DefineConstants>TRACE</DefineConstants>
-	<ErrorReport>prompt</ErrorReport>
-	<WarningLevel>4</WarningLevel>
-	<NoWarn>0169</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-	<Reference Include="System" />
+    <Reference Include="System" />
     <Reference Include="System.XML" />
-	<Reference Include="System.Core" />
-	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BarcodeCam.cs" />
- <Reference Include="zxing.unity">
- <HintPath>Assets\zxing.unity.dll</HintPath>
+     <Compile Include="Assets\ZXing.Net\BarcodeFormat.cs" />
+     <Compile Include="Assets\ZXing.Net\BarcodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\BarcodeReaderGeneric.cs" />
+     <Compile Include="Assets\ZXing.Net\BaseLuminanceSource.cs" />
+     <Compile Include="Assets\ZXing.Net\Binarizer.cs" />
+     <Compile Include="Assets\ZXing.Net\BinaryBitmap.cs" />
+     <Compile Include="Assets\ZXing.Net\DecodeHintType.cs" />
+     <Compile Include="Assets\ZXing.Net\EncodeHintType.cs" />
+     <Compile Include="Assets\ZXing.Net\IBarcodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\IBarcodeReaderGeneric.cs" />
+     <Compile Include="Assets\ZXing.Net\IMultipleBarcodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\IMultipleBarcodeReaderGeneric.cs" />
+     <Compile Include="Assets\ZXing.Net\InvertedLuminanceSource.cs" />
+     <Compile Include="Assets\ZXing.Net\LuminanceSource.cs" />
+     <Compile Include="Assets\ZXing.Net\MultiFormatReader.cs" />
+     <Compile Include="Assets\ZXing.Net\RGBLuminanceSource.cs" />
+     <Compile Include="Assets\ZXing.Net\Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\ReaderException.cs" />
+     <Compile Include="Assets\ZXing.Net\Result.cs" />
+     <Compile Include="Assets\ZXing.Net\ResultMetadataType.cs" />
+     <Compile Include="Assets\ZXing.Net\ResultPoint.cs" />
+     <Compile Include="Assets\ZXing.Net\ResultPointCallback.cs" />
+     <Compile Include="Assets\ZXing.Net\SupportClass.cs" />
+     <Compile Include="Assets\ZXing.Net\WriterException.cs" />
+     <Compile Include="Assets\ZXing.Net\aztec\AztecDetectorResult.cs" />
+     <Compile Include="Assets\ZXing.Net\aztec\AztecReader.cs" />
+     <Compile Include="Assets\ZXing.Net\aztec\AztecResultMetadata.cs" />
+     <Compile Include="Assets\ZXing.Net\aztec\decoder\Decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\aztec\detector\Detector.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BigInteger\Base10BigInteger.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BigInteger\BigInteger.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BigInteger\BigIntegerException.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BigInteger\Sign.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BitArray.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BitMatrix.cs" />
+     <Compile Include="Assets\ZXing.Net\common\BitSource.cs" />
+     <Compile Include="Assets\ZXing.Net\common\CharacterSetECI.cs" />
+     <Compile Include="Assets\ZXing.Net\common\DecoderResult.cs" />
+     <Compile Include="Assets\ZXing.Net\common\DecodingOptions.cs" />
+     <Compile Include="Assets\ZXing.Net\common\DefaultGridSampler.cs" />
+     <Compile Include="Assets\ZXing.Net\common\DetectorResult.cs" />
+     <Compile Include="Assets\ZXing.Net\common\ECI.cs" />
+     <Compile Include="Assets\ZXing.Net\common\EncodingOptions.cs" />
+     <Compile Include="Assets\ZXing.Net\common\GlobalHistogramBinarizer.cs" />
+     <Compile Include="Assets\ZXing.Net\common\GridSampler.cs" />
+     <Compile Include="Assets\ZXing.Net\common\HybridBinarizer.cs" />
+     <Compile Include="Assets\ZXing.Net\common\PerspectiveTransform.cs" />
+     <Compile Include="Assets\ZXing.Net\common\StringUtils.cs" />
+     <Compile Include="Assets\ZXing.Net\common\detector\MathUtils.cs" />
+     <Compile Include="Assets\ZXing.Net\common\detector\MonochromeRectangleDetector.cs" />
+     <Compile Include="Assets\ZXing.Net\common\detector\WhiteRectangleDetector.cs" />
+     <Compile Include="Assets\ZXing.Net\common\reedsolomon\GenericGF.cs" />
+     <Compile Include="Assets\ZXing.Net\common\reedsolomon\GenericGFPoly.cs" />
+     <Compile Include="Assets\ZXing.Net\common\reedsolomon\ReedSolomonDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\common\reedsolomon\ReedSolomonEncoder.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\DataMatrixReader.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\BitMatrixParser.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\DataBlock.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\DecodedBitStreamParser.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\Decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\decoder\Version.cs" />
+     <Compile Include="Assets\ZXing.Net\datamatrix\detector\Detector.cs" />
+     <Compile Include="Assets\ZXing.Net\imb\IMBReader.cs" />
+     <Compile Include="Assets\ZXing.Net\maxicode\MaxiCodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\maxicode\decoder\BitMatrixParser.cs" />
+     <Compile Include="Assets\ZXing.Net\maxicode\decoder\DecodedBitStreamParser.cs" />
+     <Compile Include="Assets\ZXing.Net\maxicode\decoder\Decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\ByQuadrantReader.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\GenericMultipleBarcodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\MultipleBarcodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\qrcode\QRCodeMultiReader.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\qrcode\detector\MultiDetector.cs" />
+     <Compile Include="Assets\ZXing.Net\multi\qrcode\detector\MultiFinderPatternFinder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\CodaBarReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\Code128Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\Code39Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\Code93Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\EAN13Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\EAN8Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\EANManufacturerOrgSupport.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\ITFReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\MSIReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\MultiFormatOneDReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\MultiFormatUPCEANReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\OneDReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCAReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCEANExtension2Support.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCEANExtension5Support.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCEANExtensionSupport.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCEANReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\UPCEReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\AbstractRSSReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\DataCharacter.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\FinderPattern.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\Pair.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\RSS14Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\RSSUtils.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\BitArrayBuilder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\ExpandedPair.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\ExpandedRow.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\RSSExpandedReader.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI013103decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01320xDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01392xDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01393xDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI013x0x1xDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI013x0xDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01AndOtherAIs.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AI01weightDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AbstractExpandedDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\AnyAIDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\BlockParsedResult.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\CurrentParsingState.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\DecodedChar.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\DecodedInformation.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\DecodedNumeric.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\DecodedObject.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\FieldParser.cs" />
+     <Compile Include="Assets\ZXing.Net\oned\rss\expanded\decoders\GeneralAppIdDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\Compaction.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\PDF417Common.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\PDF417HighLevelEncoder.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\PDF417Reader.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\PDF417ResultMetadata.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\BarcodeMetadata.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\BarcodeValue.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\BoundingBox.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\Codeword.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DecodedBitStreamParser.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResult.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResultColumn.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\DetectionResultRowIndicatorColumn.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\PDF417CodewordDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\PDF417ScanningDecoder.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\ec\ErrorCorrection.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\ec\ModulusGF.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\decoder\ec\ModulusPoly.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\detector\Detector.cs" />
+     <Compile Include="Assets\ZXing.Net\pdf417\detector\PDF417DetectorResult.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\QRCodeReader.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\BitMatrixParser.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\DataBlock.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\DataMask.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\DecodedBitStreamParser.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\Decoder.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\ErrorCorrectionLevel.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\FormatInformation.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\Mode.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\QRCodeDecoderMetaData.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\decoder\Version.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\AlignmentPattern.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\AlignmentPatternFinder.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\Detector.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\FinderPattern.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\FinderPatternFinder.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\detector\FinderPatternInfo.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\BlockPair.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\ByteMatrix.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\Encoder.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\MaskUtil.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\MatrixUtil.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\QRCode.cs" />
+     <Compile Include="Assets\ZXing.Net\qrcode\encoder\QrCodeEncodingOptions.cs" />
+     <Compile Include="Assets\ZXing.Net\renderer\IBarcodeRenderer.cs" />
+     <Compile Include="Assets\ZXing.Net\renderer\PixelData.cs" />
+     <Compile Include="Assets\ZXing.Net\renderer\RawRenderer.cs" />
+     <Compile Include="Assets\ZXing.Net\unity\Color32LuminanceSource.cs" />
+     <Compile Include="Assets\ZXing.Net\unity\Color32Renderer.cs" />
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-	   Other similar extension points exist, see Microsoft.Common.targets.
+       Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
