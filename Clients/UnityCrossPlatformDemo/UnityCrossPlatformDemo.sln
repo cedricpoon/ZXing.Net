@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{7158E5E3-7F93-4D79-CADE-0788AB307DD5}") = "UnityCrossPlatformDemo", "Assembly-CSharp.csproj", "{D50838FB-3C1A-33B2-19BD-92AF7AC67E0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50838FB-3C1A-33B2-19BD-92AF7AC67E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50838FB-3C1A-33B2-19BD-92AF7AC67E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50838FB-3C1A-33B2-19BD-92AF7AC67E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50838FB-3C1A-33B2-19BD-92AF7AC67E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

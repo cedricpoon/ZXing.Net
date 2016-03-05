@@ -1,0 +1,96 @@
+﻿#pragma once
+
+#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <stdint.h>
+#include <assert.h>
+#include <exception>
+
+
+#include "codegen/il2cpp-codegen.h"
+#include "AssemblyU2DCSharp_ZXing_BarcodeReaderGeneric_1_gen3876156226MethodDeclarations.h"
+
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::.ctor()
+#define BarcodeReaderGeneric_1__ctor_m1105776813(__this, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1__ctor_m3566926270_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::.ctor(ZXing.Reader,System.Func`4<T,System.Int32,System.Int32,ZXing.LuminanceSource>,System.Func`2<ZXing.LuminanceSource,ZXing.Binarizer>)
+#define BarcodeReaderGeneric_1__ctor_m1674534614(__this, ___reader, ___createLuminanceSource, ___createBinarizer, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Object_t *, Func_4_t248019771 *, Func_2_t723793039 *, const MethodInfo*))BarcodeReaderGeneric_1__ctor_m385709991_gshared)(__this, ___reader, ___createLuminanceSource, ___createBinarizer, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::.ctor(ZXing.Reader,System.Func`4<T,System.Int32,System.Int32,ZXing.LuminanceSource>,System.Func`2<ZXing.LuminanceSource,ZXing.Binarizer>,System.Func`5<System.Byte[],System.Int32,System.Int32,ZXing.RGBLuminanceSource/BitmapFormat,ZXing.LuminanceSource>)
+#define BarcodeReaderGeneric_1__ctor_m2544654285(__this, ___reader, ___createLuminanceSource, ___createBinarizer, ___createRGBLuminanceSource, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Object_t *, Func_4_t248019771 *, Func_2_t723793039 *, Func_5_t58836280 *, const MethodInfo*))BarcodeReaderGeneric_1__ctor_m2903068508_gshared)(__this, ___reader, ___createLuminanceSource, ___createBinarizer, ___createRGBLuminanceSource, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::.cctor()
+#define BarcodeReaderGeneric_1__cctor_m3732213920(__this /* static, unused */, method) ((  void (*) (Object_t * /* static, unused */, const MethodInfo*))BarcodeReaderGeneric_1__cctor_m2718435759_gshared)(__this /* static, unused */, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::add_ResultPointFound(System.Action`1<ZXing.ResultPoint>)
+#define BarcodeReaderGeneric_1_add_ResultPointFound_m1282362073(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t1036216512 *, const MethodInfo*))BarcodeReaderGeneric_1_add_ResultPointFound_m3017558504_gshared)(__this, ___value, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::remove_ResultPointFound(System.Action`1<ZXing.ResultPoint>)
+#define BarcodeReaderGeneric_1_remove_ResultPointFound_m1601505898(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t1036216512 *, const MethodInfo*))BarcodeReaderGeneric_1_remove_ResultPointFound_m612007163_gshared)(__this, ___value, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::add_explicitResultPointFound(System.Action`1<ZXing.ResultPoint>)
+#define BarcodeReaderGeneric_1_add_explicitResultPointFound_m1722174221(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t1036216512 *, const MethodInfo*))BarcodeReaderGeneric_1_add_explicitResultPointFound_m2091305756_gshared)(__this, ___value, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::remove_explicitResultPointFound(System.Action`1<ZXing.ResultPoint>)
+#define BarcodeReaderGeneric_1_remove_explicitResultPointFound_m2923424158(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t1036216512 *, const MethodInfo*))BarcodeReaderGeneric_1_remove_explicitResultPointFound_m309738287_gshared)(__this, ___value, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::add_ResultFound(System.Action`1<ZXing.Result>)
+#define BarcodeReaderGeneric_1_add_ResultFound_m3795376895(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t2363837866 *, const MethodInfo*))BarcodeReaderGeneric_1_add_ResultFound_m534221006_gshared)(__this, ___value, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::remove_ResultFound(System.Action`1<ZXing.Result>)
+#define BarcodeReaderGeneric_1_remove_ResultFound_m3238833104(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Action_1_t2363837866 *, const MethodInfo*))BarcodeReaderGeneric_1_remove_ResultFound_m2303979425_gshared)(__this, ___value, method)
+// ZXing.Common.DecodingOptions ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_Options()
+#define BarcodeReaderGeneric_1_get_Options_m4251866691(__this, method) ((  DecodingOptions_t3893884042 * (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_Options_m3098010004_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_Options(ZXing.Common.DecodingOptions)
+#define BarcodeReaderGeneric_1_set_Options_m1934444114(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, DecodingOptions_t3893884042 *, const MethodInfo*))BarcodeReaderGeneric_1_set_Options_m1687808803_gshared)(__this, ___value, method)
+// ZXing.Reader ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_Reader()
+#define BarcodeReaderGeneric_1_get_Reader_m1885912467(__this, method) ((  Object_t * (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_Reader_m1426843426_gshared)(__this, method)
+// System.Boolean ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_TryHarder()
+#define BarcodeReaderGeneric_1_get_TryHarder_m1063407817(__this, method) ((  bool (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_TryHarder_m2224082138_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_TryHarder(System.Boolean)
+#define BarcodeReaderGeneric_1_set_TryHarder_m2072682200(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, bool, const MethodInfo*))BarcodeReaderGeneric_1_set_TryHarder_m4220728617_gshared)(__this, ___value, method)
+// System.Boolean ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_PureBarcode()
+#define BarcodeReaderGeneric_1_get_PureBarcode_m3993832510(__this, method) ((  bool (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_PureBarcode_m2710358031_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_PureBarcode(System.Boolean)
+#define BarcodeReaderGeneric_1_set_PureBarcode_m4219466637(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, bool, const MethodInfo*))BarcodeReaderGeneric_1_set_PureBarcode_m2612803998_gshared)(__this, ___value, method)
+// System.String ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_CharacterSet()
+#define BarcodeReaderGeneric_1_get_CharacterSet_m1458945206(__this, method) ((  String_t* (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_CharacterSet_m3737041925_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_CharacterSet(System.String)
+#define BarcodeReaderGeneric_1_set_CharacterSet_m3925633653(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, String_t*, const MethodInfo*))BarcodeReaderGeneric_1_set_CharacterSet_m2318971014_gshared)(__this, ___value, method)
+// System.Collections.Generic.IList`1<ZXing.BarcodeFormat> ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_PossibleFormats()
+#define BarcodeReaderGeneric_1_get_PossibleFormats_m1931220572(__this, method) ((  Object_t* (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_PossibleFormats_m77712557_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_PossibleFormats(System.Collections.Generic.IList`1<ZXing.BarcodeFormat>)
+#define BarcodeReaderGeneric_1_set_PossibleFormats_m1609126709(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Object_t*, const MethodInfo*))BarcodeReaderGeneric_1_set_PossibleFormats_m4074190020_gshared)(__this, ___value, method)
+// System.Boolean ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_AutoRotate()
+#define BarcodeReaderGeneric_1_get_AutoRotate_m278328566(__this, method) ((  bool (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_AutoRotate_m1899494149_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_AutoRotate(System.Boolean)
+#define BarcodeReaderGeneric_1_set_AutoRotate_m4172882581(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, bool, const MethodInfo*))BarcodeReaderGeneric_1_set_AutoRotate_m2042844772_gshared)(__this, ___value, method)
+// System.Boolean ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_TryInverted()
+#define BarcodeReaderGeneric_1_get_TryInverted_m1453789606(__this, method) ((  bool (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_TryInverted_m170315127_gshared)(__this, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::set_TryInverted(System.Boolean)
+#define BarcodeReaderGeneric_1_set_TryInverted_m416310005(__this, ___value, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, bool, const MethodInfo*))BarcodeReaderGeneric_1_set_TryInverted_m3104614662_gshared)(__this, ___value, method)
+// System.Func`4<T,System.Int32,System.Int32,ZXing.LuminanceSource> ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_CreateLuminanceSource()
+#define BarcodeReaderGeneric_1_get_CreateLuminanceSource_m1090582084(__this, method) ((  Func_4_t248019771 * (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_CreateLuminanceSource_m327264213_gshared)(__this, method)
+// System.Func`2<ZXing.LuminanceSource,ZXing.Binarizer> ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::get_CreateBinarizer()
+#define BarcodeReaderGeneric_1_get_CreateBinarizer_m1935204381(__this, method) ((  Func_2_t723793039 * (*) (BarcodeReaderGeneric_1_t422053252 *, const MethodInfo*))BarcodeReaderGeneric_1_get_CreateBinarizer_m3861735534_gshared)(__this, method)
+// ZXing.Result ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::Decode(T,System.Int32,System.Int32)
+#define BarcodeReaderGeneric_1_Decode_m1473259983(__this, ___rawRGB, ___width, ___height, method) ((  Result_t2215385161 * (*) (BarcodeReaderGeneric_1_t422053252 *, Color32U5BU5D_t1677970742*, int32_t, int32_t, const MethodInfo*))BarcodeReaderGeneric_1_Decode_m2789274976_gshared)(__this, ___rawRGB, ___width, ___height, method)
+// ZXing.Result ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::Decode(ZXing.LuminanceSource)
+#define BarcodeReaderGeneric_1_Decode_m2930540058(__this, ___luminanceSource, method) ((  Result_t2215385161 * (*) (BarcodeReaderGeneric_1_t422053252 *, LuminanceSource_t1843403551 *, const MethodInfo*))BarcodeReaderGeneric_1_Decode_m641567339_gshared)(__this, ___luminanceSource, method)
+// ZXing.Result[] ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::DecodeMultiple(T,System.Int32,System.Int32)
+#define BarcodeReaderGeneric_1_DecodeMultiple_m622335229(__this, ___rawRGB, ___width, ___height, method) ((  ResultU5BU5D_t1359018100* (*) (BarcodeReaderGeneric_1_t422053252 *, Color32U5BU5D_t1677970742*, int32_t, int32_t, const MethodInfo*))BarcodeReaderGeneric_1_DecodeMultiple_m272039310_gshared)(__this, ___rawRGB, ___width, ___height, method)
+// ZXing.Result[] ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::DecodeMultiple(ZXing.LuminanceSource)
+#define BarcodeReaderGeneric_1_DecodeMultiple_m1582818248(__this, ___luminanceSource, method) ((  ResultU5BU5D_t1359018100* (*) (BarcodeReaderGeneric_1_t422053252 *, LuminanceSource_t1843403551 *, const MethodInfo*))BarcodeReaderGeneric_1_DecodeMultiple_m2729495833_gshared)(__this, ___luminanceSource, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::OnResultsFound(System.Collections.Generic.IEnumerable`1<ZXing.Result>)
+#define BarcodeReaderGeneric_1_OnResultsFound_m888453588(__this, ___results, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Object_t*, const MethodInfo*))BarcodeReaderGeneric_1_OnResultsFound_m34779811_gshared)(__this, ___results, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::OnResultFound(ZXing.Result)
+#define BarcodeReaderGeneric_1_OnResultFound_m1098576810(__this, ___result, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Result_t2215385161 *, const MethodInfo*))BarcodeReaderGeneric_1_OnResultFound_m3701926459_gshared)(__this, ___result, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::OnResultPointFound(ZXing.ResultPoint)
+#define BarcodeReaderGeneric_1_OnResultPointFound_m3600356324(__this, ___resultPoint, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, ResultPoint_t887763807 *, const MethodInfo*))BarcodeReaderGeneric_1_OnResultPointFound_m3511863605_gshared)(__this, ___resultPoint, method)
+// ZXing.Result ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::Decode(System.Byte[],System.Int32,System.Int32,ZXing.RGBLuminanceSource/BitmapFormat)
+#define BarcodeReaderGeneric_1_Decode_m3099114817(__this, ___rawRGB, ___width, ___height, ___format, method) ((  Result_t2215385161 * (*) (BarcodeReaderGeneric_1_t422053252 *, ByteU5BU5D_t58506160*, int32_t, int32_t, int32_t, const MethodInfo*))BarcodeReaderGeneric_1_Decode_m495755922_gshared)(__this, ___rawRGB, ___width, ___height, ___format, method)
+// ZXing.Result[] ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::DecodeMultiple(System.Byte[],System.Int32,System.Int32,ZXing.RGBLuminanceSource/BitmapFormat)
+#define BarcodeReaderGeneric_1_DecodeMultiple_m1569669359(__this, ___rawRGB, ___width, ___height, ___format, method) ((  ResultU5BU5D_t1359018100* (*) (BarcodeReaderGeneric_1_t422053252 *, ByteU5BU5D_t58506160*, int32_t, int32_t, int32_t, const MethodInfo*))BarcodeReaderGeneric_1_DecodeMultiple_m1508901696_gshared)(__this, ___rawRGB, ___width, ___height, ___format, method)
+// System.Void ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::<BarcodeReaderGeneric>m__1(System.Object,System.EventArgs)
+#define BarcodeReaderGeneric_1_U3CBarcodeReaderGenericU3Em__1_m1203345315(__this, ___o, ___args, method) ((  void (*) (BarcodeReaderGeneric_1_t422053252 *, Object_t *, EventArgs_t516466188 *, const MethodInfo*))BarcodeReaderGeneric_1_U3CBarcodeReaderGenericU3Em__1_m2279804658_gshared)(__this, ___o, ___args, method)
+// ZXing.Binarizer ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::<defaultCreateBinarizer>m__2(ZXing.LuminanceSource)
+#define BarcodeReaderGeneric_1_U3CdefaultCreateBinarizerU3Em__2_m2183130315(__this /* static, unused */, ___luminanceSource, method) ((  Binarizer_t776273154 * (*) (Object_t * /* static, unused */, LuminanceSource_t1843403551 *, const MethodInfo*))BarcodeReaderGeneric_1_U3CdefaultCreateBinarizerU3Em__2_m3001849692_gshared)(__this /* static, unused */, ___luminanceSource, method)
+// ZXing.LuminanceSource ZXing.BarcodeReaderGeneric`1<UnityEngine.Color32[]>::<defaultCreateRGBLuminanceSource>m__3(System.Byte[],System.Int32,System.Int32,ZXing.RGBLuminanceSource/BitmapFormat)
+#define BarcodeReaderGeneric_1_U3CdefaultCreateRGBLuminanceSourceU3Em__3_m3202310302(__this /* static, unused */, ___rawBytes, ___width, ___height, ___format, method) ((  LuminanceSource_t1843403551 * (*) (Object_t * /* static, unused */, ByteU5BU5D_t58506160*, int32_t, int32_t, int32_t, const MethodInfo*))BarcodeReaderGeneric_1_U3CdefaultCreateRGBLuminanceSourceU3Em__3_m2441739565_gshared)(__this /* static, unused */, ___rawBytes, ___width, ___height, ___format, method)
